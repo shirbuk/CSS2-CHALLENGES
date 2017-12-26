@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    position: relative;
+}
+
+.login-box {
+    background-color: rgb(187, 49, 49);
+    color: white;
+    width: 400px;
+    text-align: center;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: white;
+    font-family: Arial;
+    font-size: 24px;
+}
+
+.username {
+    text-align: left;
+    font-family: arial;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.password {
+    text-align: left;
+    font-family: arial;
+    font-size: 14px;
+
+}
+
+.button {
+    border-radius: 100px;
+    width: 100px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+.under-box {
+    background-color: rgb(146, 15, 15);
+    width: 400px;
+    height: 150px;
+    margin-left: 30%;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.under-button {
+    width: 70%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: rgb(79, 79, 83);
+    font-size: 20px;
+    font-family: arial;
+    border-radius: 5px;
+}
+
+.linkit {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 20px;
+    background-color: transparent;
+    font-family: arial;
+    top: 80%;
+}
+
